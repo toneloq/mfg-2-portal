@@ -90,11 +90,17 @@
 	</div>
 
 	<div class="tab">
-	  <button class="tablinks" onclick="openCity(event, 'Products')" id="defaultOpen">Products</button>
+	  <button class="tablinks" onclick="openCity(event, 'Home')" id="defaultOpen"></button>
+	  <button class="tablinks" onclick="openCity(event, 'Products')" >Products</button>
 	  <button class="tablinks" onclick="openCity(event, 'Parts')">Parts</button>
 	  <button class="tablinks" onclick="openCity(event, 'servSupport')">Service & Support</button>
 	  <button class="tablinks" onclick="openCity(event, 'BuildQuote')">Build a Quote</button>
 	</div>
+
+<div id="Home" class="tabcontent">
+  <h3>Home Content</h3>
+  <p>Home page here</p>
+</div>
 
 <div id="Products" class="tabcontent">
   <h3>Products</h3>
