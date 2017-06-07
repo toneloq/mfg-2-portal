@@ -31,15 +31,18 @@ document.getElementById("defaultOpen").click();
   <style> 
 	.logoHolder{
   		float:left;
+		background-image: url("https://mfgqtc--c.na40.content.force.com/servlet/servlet.ImageServer?id=01546000000NZJm&oid=00D460000000MPU&lastMod=1495820403000");
+		width: 120px;
+	    height: 50px;
+	    background-size: 100px 50px;
+	    background-color: #f2f2f2;
+	    background-repeat: no-repeat;
+	    background-position-x: 10px;
   	} 
   	.logo{
   		max-height:60px;
   	}
-	.banner img{
-		max-width: 100%;
-    	height: auto;
-   		width: auto\9; /* ie8 */
-	} 
+	
 	/* Style the tab */
 	div.tab {
 	    overflow: hidden;
@@ -75,13 +78,14 @@ document.getElementById("defaultOpen").click();
 	.tabcontent {
 	    display: none;
 	    background-image: url("https://mfgqtc--c.na40.content.force.com/servlet/servlet.ImageServer?id=01546000000NZIK&oid=00D460000000MPU&lastMod=1496805381000");
-	    background-size: auto 100%;
+	    background-size: 100%;
 	    padding: 6px 12px;
 	    border: 1px solid #f2f2f2;
 	    border-top: none;
 	    background-color: #f2f2f2;
 	    -webkit-animation: fadeEffect 1s;
-    	animation: fadeEffect 1s; /* Fading effect takes 1 second */
+    	    animation: fadeEffect 1s; /* Fading effect takes 1 second */
+	    height:900px !important
 	} 
 
 	@-webkit-keyframes fadeEffect {
@@ -93,13 +97,7 @@ document.getElementById("defaultOpen").click();
 	    from {opacity: 0;}
 	    to {opacity: 1;}
 	}
-	 .logoHolder{
-	 	background-image: url("https://mfgqtc--c.na40.content.force.com/servlet/servlet.ImageServer?id=01546000000NZJm&oid=00D460000000MPU&lastMod=1495820403000");
-		width: 100px;
-    	height: 50px;
-    	background-size: 100px 50px;
-    	background-color: #f2f2f2;
-	}
+	 
 	    </style>
 </head>
 <body>
