@@ -77,10 +77,12 @@
 	} 
 	 .logoHolder{
 	 	background-image: url("https://mfgqtc--c.na40.content.force.com/servlet/servlet.ImageServer?id=01546000000NZJm&oid=00D460000000MPU&lastMod=1495820403000");
-		width: 100px;
-    	height: 50px;
-    	background-size: 100px 50px;
-    	background-color: #f2f2f2;
+		width: 115px;
+	    height: 50px;
+	    background-size: 96px 48px;
+	    background-color: #f2f2f2;
+	    background-repeat: no-repeat;
+	    background-position: 10px 0px;
 	}
 	    </style>
 </head>
