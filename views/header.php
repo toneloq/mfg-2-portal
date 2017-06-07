@@ -104,7 +104,7 @@
 
 <div id="Products" class="tabcontent">
   <h3>Products</h3>
-  <iframe src="https://login.salesforce.com/" height="800" width="1400"></iframe>
+  <iframe src="//login.salesforce.com/" height="800" width="1400"></iframe>
 </div>
 
 <div id="Parts" class="tabcontent">
