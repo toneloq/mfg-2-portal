@@ -58,7 +58,7 @@
 	/* Style the tab content */
 	.tabcontent {
 	    display: none;
-	    background-image: url("https://mfgqtc--c.na40.content.force.com/servlet/servlet.ImageServer?id=01546000000NZIK&oid=00D460000000MPU&lastMod=1496805381000");
+	    background-image: url("https://mfgqtc--c.na40.content.force.com/servlet/servlet.ImageServer?id=01546000000NZIK&oid=00D460000000MPU&lastMod=1496810924000");
 	    background-size: 100%;
 	    padding: 6px 12px;
 	    border: 1px solid #f2f2f2;
