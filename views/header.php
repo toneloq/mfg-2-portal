@@ -90,7 +90,7 @@
 	</div>
 
 	<div class="tab">
-	  <button class="tablinks" onclick="openCity(event, 'Home')" id="defaultOpen"></button>
+	  <button class="tablinks" onclick="openCity(event, 'Home')" id="defaultOpen">Rhino Equipment</button>
 	  <button class="tablinks" onclick="openCity(event, 'Products')" >Products</button>
 	  <button class="tablinks" onclick="openCity(event, 'Parts')">Parts</button>
 	  <button class="tablinks" onclick="openCity(event, 'servSupport')">Service & Support</button>
