@@ -75,7 +75,7 @@
 	    border: 1px solid #ccc;
 	    border-top: none;
 	    } 
-	 .tablinks{
+	 .tabcontent{
 	 	background-image: url("https://mfgqtc--c.na40.content.force.com/servlet/servlet.ImageServer?id=01546000000NZJm&oid=00D460000000MPU&lastMod=1495820403000");
 	 }
 	    </style>
