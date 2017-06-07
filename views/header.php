@@ -75,9 +75,11 @@
 	    border: 1px solid #ccc;
 	    border-top: none;
 	    } 
-	 .tabcontent{
+	 .logoHolder{
 	 	background-image: url("https://mfgqtc--c.na40.content.force.com/servlet/servlet.ImageServer?id=01546000000NZJm&oid=00D460000000MPU&lastMod=1495820403000");
-	 }
+		width:12%;
+		height:9%
+	}
 	    </style>
 </head>
 <body>
