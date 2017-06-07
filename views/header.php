@@ -73,14 +73,19 @@
 	    display: none;
 	    padding: 6px 12px;
 	    border: 1px solid #ccc;
-	    border-top: none;} </style>
+	    border-top: none;
+	    } 
+	 .logoHolder{
+	 	background-image: url("https://mfgqtc--c.na40.content.force.com/servlet/servlet.ImageServer?id=01546000000NZJm&oid=00D460000000MPU&lastMod=1495820403000");
+	 }
+	    </style>
 </head>
 <body>
 
 <div class="headerHolder">
 
 	<div class="logoHolder">
-		<img class="logo" src="https://mfgqtc--c.na40.content.force.com/servlet/servlet.ImageServer?id=01546000000NZJm&oid=00D460000000MPU&lastMod=1495820403000" href="https://mfg-20-portal.herokuapp.com/index.html">
+		<a class="logo" href="https://mfg-20-portal.herokuapp.com/index.html"></a>
 	</div>
 
 	<div class="tab">
@@ -110,9 +115,4 @@
   <p>Build a Quote page here</p>
 </div>
 
-</div>
-
-
-<div class="banner">
-	<img src="https://mfgqtc--c.na40.content.force.com/servlet/servlet.ImageServer?id=01546000000NZIK&oid=00D460000000MPU&lastMod=1496785732000" href=""> 
 </div>
