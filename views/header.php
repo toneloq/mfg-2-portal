@@ -10,19 +10,16 @@
   <script type="text/javascript"> function openCity(evt, cityName) {
     // Declare all variables
     var i, tabcontent, tablinks;
-
     // Get all elements with class="tabcontent" and hide them
     tabcontent = document.getElementsByClassName("tabcontent");
     for (i = 0; i < tabcontent.length; i++) {
         tabcontent[i].style.display = "none";
     }
-
     // Get all elements with class="tablinks" and remove the class "active"
     tablinks = document.getElementsByClassName("tablinks");
     for (i = 0; i < tablinks.length; i++) {
         tablinks[i].className = tablinks[i].className.replace(" active", "");
     }
-
     // Show the current tab, and add an "active" class to the button that opened the tab
     document.getElementById(cityName).style.display = "block";
     evt.currentTarget.className += " active";
@@ -31,7 +28,6 @@
 	.logoHolder{
   		float:left;
   	} 
-
   	.logo{
   		max-height:60px;
   	}
@@ -42,7 +38,6 @@
 	    border: 1px solid #f2f2f2;	
 	    background-color: #f1f1f1;
 	}
-
 	/* Style the buttons inside the tab */
 	div.tab button {
 	    background-color: inherit;
@@ -53,21 +48,21 @@
 	    padding: 14px 16px;
 	    transition: 0.3s;
 	}
-
 	/* Change background color of buttons on hover */
 	div.tab button:hover {
 	    /*background-color: #ddd;*/
-	    background-image: -webkit-gradient(linear,50% 0,50% 100%,color-stop(0,#f7a71b),color-stop(100%,#d38600)); 
-	    background-image: -moz-linear-gradient(#f7a71b,#d38600); 
-	    background-image: -webkit-linear-gradient(#f7a71b,#d38600); 
-	    background-image: linear-gradient(#f7a71b,#d38600);
+	    background-image: -webkit-gradient(linear,50% 0,50% 100%,color-stop(0,#f7a71b),color-stop(100%,#ffbc46)); 
+	    background-image: -moz-linear-gradient(#f7a71b,#ffbc46); 
+	    background-image: -webkit-linear-gradient(#f7a71b,#ffbc46); 
+	    background-image: linear-gradient(#f7a71b,#ffbc46);
 	}
-
 	/* Create an active/current tablink class */
 	div.tab button.active {
-	    background-color: #ccc;
+	    background-image: -webkit-gradient(linear,50% 0,50% 100%,color-stop(0,#f7a71b),color-stop(100%,#ffbc46)); 
+	    background-image: -moz-linear-gradient(#f7a71b,#ffbc46); 
+	    background-image: -webkit-linear-gradient(#f7a71b,#ffbc46); 
+	    background-image: linear-gradient(#f7a71b,#ffbc46);
 	}
-
 	/* Style the tab content */
 	.tabcontent {
 	    display: none;
