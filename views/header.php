@@ -39,7 +39,7 @@
 	/* Style the tab */
 	div.tab {
 	    overflow: hidden;
-	    border: 1px solid #ccc;	
+	    border: 1px solid #f2f2f2;	
 	    background-color: #f1f1f1;
 	}
 
@@ -77,8 +77,10 @@
 	    } 
 	 .logoHolder{
 	 	background-image: url("https://mfgqtc--c.na40.content.force.com/servlet/servlet.ImageServer?id=01546000000NZJm&oid=00D460000000MPU&lastMod=1495820403000");
-		width:12%;
-		height:9%
+		width: 100px;
+    		height: 50px;
+    		background-size: 100px 50px;
+    		background-color: #f1f1f1;
 	}
 	    </style>
 </head>
