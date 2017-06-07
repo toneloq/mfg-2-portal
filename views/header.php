@@ -31,8 +31,10 @@
   	.logo{
   		max-height:60px;
   	}
-	.banner{
-		max-width:100%;
+	.banner img{
+		max-width: 100%;
+    		height: auto;
+   		width: auto\9; /* ie8 */
 	} 
 	/* Style the tab */
 	div.tab {
