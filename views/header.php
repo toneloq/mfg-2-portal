@@ -31,7 +31,9 @@
   	.logo{
   		max-height:60px;
   	}
-	 
+	.banner{
+		max-width:100%;
+	} 
 	/* Style the tab */
 	div.tab {
 	    overflow: hidden;
