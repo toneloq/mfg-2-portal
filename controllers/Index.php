@@ -12,6 +12,7 @@ class Index extends Controller{
     public function Index(){
         $this->view->renderHeader();
         // DO SOMETHING CRAZY!
+        $this->view->render('index');
         $this->view->renderFooter();
     }
 }
